@@ -22,4 +22,4 @@ jobs:
         pip install twilio requests
 
     - name: Run Python script
-      run: python script.py
+      run: python ScriptWhatsApp.py
