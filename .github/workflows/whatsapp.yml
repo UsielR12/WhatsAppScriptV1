@@ -19,7 +19,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install twilio requests
+        pip install requests
 
     - name: Run Python script
-      run: python ScriptWhatsApp.py
+      run: python ScriptWhatsAppV4.py
