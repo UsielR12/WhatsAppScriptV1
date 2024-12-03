@@ -3,8 +3,8 @@ import time
 from datetime import datetime
 
 # Credenciales de Twilio
-account_sid = 'ACce5ff3e6749be4ba80dee84c60ed5bdb'
-auth_token = 'fed19ff03da67cb6497e9cea4daf9de7'
+account_sid = 'AC9f12c000be13be440e04f3cdb93226cf'
+auth_token = '6be42b6d090ec0db2f7affabcdc40119'
 client = Client(account_sid, auth_token)
 
 
@@ -49,7 +49,7 @@ if __name__ == "__main__":
     # Configura los números
     to = '+50684181246'  # Número que recibirá el mensaje original
     to_notify = '+50684181246'    # Número al que se notificará la respuesta
-    body = '¡Hola! Esto es una prueba, por favor responde a este mensaje.'
+    body = '¡Hola! Esto es una prueba.'
 
     # Enviar mensaje y capturar su fecha de creación
     message = client.messages.create(
