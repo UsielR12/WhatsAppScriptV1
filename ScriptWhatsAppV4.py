@@ -2,11 +2,11 @@ import requests
 import time
 
 # Configuración de UltraMsg
-INSTANCE_ID = "instance100937"  # Instance ID de UltraMsg
-TOKEN = "7qzu50vav5l12foh"      # Token de UltraMsg
+INSTANCE_ID = "instance101509"  # Instance ID de UltraMsg
+TOKEN = "bywdbhoco4mliq9v"      # Token de UltraMsg
 CHAT_ID = "50688482272@c.us"    # ID del chat del destinatario (número + "@c.us")
 NUMERO_DESTINATARIO = "50688482272"  # Número del destinatario
-NUMERO_NOTIFICACION = "50684181246"  # Número para enviar la notificación
+NUMERO_NOTIFICACION = "50684657373"  # Número para enviar la notificación
 MENSAJE_INICIAL = "Hola."
 
 # URLS
